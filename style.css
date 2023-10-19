@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+.monthyear {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  padding-block: 8px;
+  text-align: center;
+  background-color: #2351b3;
+  border-radius: 8px;
+}
+.currentMonth,
+#currentYear {
+  color: #fff;
+  font-weight: 500;
+  user-select: none;
+}
+.monthyear li {
+  font-size: 20px;
+  letter-spacing: 0.4rem;
+}
+.monthyear li i {
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  border-radius: 4px;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #2f52c8;
+}
+
+.weekdays {
+  list-style-type: none;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.days {
+  list-style-type: none;
+  padding-block: 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.weekdays li {
+  color: #f5f5f5;
+}
+.current-date {
+  border-radius: 6px;
+  background: #2351b3;
+}
+.abc {
+  color: #f5f5f5;
+  padding: 4px;
+}
